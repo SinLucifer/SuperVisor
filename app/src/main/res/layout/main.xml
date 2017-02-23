@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main">
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="115dp">
+    <org.sin.supervisor.ButtonUi
+        android:id="@+id/free"
+        android:background="@drawable/free"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <org.sin.supervisor.ButtonUi
+
+        android:id="@+id/listen"
+        android:background="@drawable/listen"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
+    <org.sin.supervisor.ButtonUi
+
+        android:id="@+id/clean"
+        android:background="@drawable/sysopt"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <org.sin.supervisor.ButtonUi
+
+        android:id="@+id/blacknumber"
+        android:background="@drawable/blacknumber"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <org.sin.supervisor.ButtonUi
+
+        android:id="@+id/bigeye"
+        android:background="@drawable/bigeye"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</FrameLayout>
+
+</RelativeLayout>
